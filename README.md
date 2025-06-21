@@ -44,7 +44,7 @@ The study implements comprehensive statistical analysis encompassing:
 
 ### **Risk Measurement Results**
 
-![Modified Cornish-Fisher VaR Analysis](image-placeholder)
+![image](https://github.com/user-attachments/assets/eba1aed4-32ad-44bf-9c3a-490f7e150be0)
 
 **Figure 1: Modified Cornish-Fisher VaR Analysis Across 48 Industry Portfolios**
 
@@ -56,7 +56,7 @@ Technology and manufacturing sectors display moderate risk levels with significa
 
 ### **Risk-Adjusted Performance Analysis**
 
-![Sharpe Ratio Comparison](image-placeholder)
+![image](https://github.com/user-attachments/assets/928082f2-5719-4300-9df8-8a04b4142500)
 
 **Figure 2: Sharpe Ratio Analysis Across Industry Portfolios**
 
@@ -116,8 +116,7 @@ cvar = ret[isbeyond].mean()
 
 ### **Efficient Frontier Analysis**
 
-![Efficient Frontier Construction](image-placeholder)
-
+![image](https://github.com/user-attachments/assets/e39c1c1a-83e5-45ca-aba7-c383be55bf37)
 **Figure 3: Efficient Frontier for Food & Beer Portfolio**
 
 The efficient frontier analysis for the Food and Beer industry portfolio demonstrates fundamental Modern Portfolio Theory principles through well-defined risk-return relationships. The minimum variance portfolio (highlighted in red) achieves optimal risk reduction at 12.84% annualized volatility with 7.59% expected return, corresponding to the analytically derived 60% Food / 40% Beer allocation that minimizes portfolio risk through diversification.
