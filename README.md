@@ -39,7 +39,8 @@ Comprehensive statistical analysis is performed including:
 - **Higher-Order Moments**: Third and fourth moment calculations for distribution analysis
 - **Correlation Analysis**: Cross-sectional correlation matrices for portfolio construction
 
-![image](https://github.com/user-attachments/assets/d90467c0-7da8-4d12-8735-bff7070e5cf8)
+![image](https://github.com/user-attachments/assets/eba1aed4-32ad-44bf-9c3a-490f7e150be0)
+
 
 The Modified Cornish-Fisher VaR analysis above reveals significant heterogeneity in tail risk exposure across the 48 industry portfolios. Coal emerges as the highest-risk sector with a VaR of approximately 23%, reflecting the extreme volatility and cyclical nature of commodity markets. Energy-related industries (Coal, Oil, Mines) consistently rank among the highest-risk categories, indicating sector-specific vulnerability to economic cycles and commodity price shocks.
 In contrast, defensive sectors demonstrate superior risk profiles: Food (6.3%), Beer (6.3%), and Utilities (7.1%) exhibit the lowest VaR values, confirming their reputation as safe-haven investments during market stress. The consumer staples and utilities sectors provide natural portfolio diversification benefits due to their stable demand characteristics and lower correlation with economic cycles.
