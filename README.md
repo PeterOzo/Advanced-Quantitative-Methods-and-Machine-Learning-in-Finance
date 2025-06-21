@@ -56,7 +56,11 @@ The wide dispersion of VaR values (ranging from 6.3% to 23%) validates the impor
 - **Kurtosis Analysis**: Real Estate shows extreme kurtosis (17.20), indicating fat-tail distributions and higher probability of extreme events
 
 ![image](https://github.com/user-attachments/assets/928082f2-5719-4300-9df8-8a04b4142500)
-
+The Sharpe ratio analysis reveals Meals (0.656) and Medical Equipment (0.600) as the top-performing sectors on a risk-adjusted basis, demonstrating their ability to generate superior excess returns relative to volatility. These sectors benefit from consistent demand patterns and defensive characteristics that provide stable cash flows across economic cycles.
+Consumer staples sectors dominate the upper performance tiers: Food, Beer, and Retail all achieve Sharpe ratios above 0.40, confirming that necessity-based industries offer optimal risk-return profiles for long-term investors. The healthcare cluster (Medical Equipment, Drugs, Healthcare) consistently ranks in the top quartile, reflecting the sector's growth potential combined with relatively stable earnings.
+Notable underperformers include commodity-dependent sectors: Toys (-0.018), Gold (0.002), and Coal (0.062) exhibit poor risk-adjusted returns, indicating that high volatility in these industries is not adequately compensated by excess returns. The negative Sharpe ratio for Toys suggests investors would have been better served holding risk-free assets.
+Technology sectors show mixed performance: while Computers (0.177) and Chips (0.292) demonstrate moderate risk-adjusted returns, they lag behind defensive sectors, suggesting that innovation premiums may not fully offset technology sector volatility during the study period.
+The inverse relationship between VaR and Sharpe ratios is evident, where industries with moderate risk exposure (10-15% VaR) tend to achieve the highest risk-adjusted returns, validating the importance of balanced risk-taking in portfolio optimization.
 
 **Risk-Adjusted Performance Insights:**
 - **Top Performers**: Meals (0.656), Guns (0.628), and Medical Equipment (0.600) achieve the highest risk-adjusted returns
@@ -105,7 +109,7 @@ cvar = ret[isbeyond].mean()
 
 ![image](https://github.com/user-attachments/assets/e39c1c1a-83e5-45ca-aba7-c383be55bf37)
 
-The attached plot illustrates the Efficient Frontier Analysis for two selected industries, Food and Beer, using annualized returns and volatilities. The blue curve represents the efficient frontier, which consists of various portfolios created by adjusting the weight combinations of the two assets in increments of 0.10, ranging from fully investing in one asset to the other. The x-axis denotes portfolio volatility (risk), while the y-axis represents the expected return. Each point on the curve corresponds to a different portfolio composition of Food and Beer.
+The plot above illustrates the Efficient Frontier Analysis for two selected industries, Food and Beer, using annualized returns and volatilities. The blue curve represents the efficient frontier, which consists of various portfolios created by adjusting the weight combinations of the two assets in increments of 0.10, ranging from fully investing in one asset to the other. The x-axis denotes portfolio volatility (risk), while the y-axis represents the expected return. Each point on the curve corresponds to a different portfolio composition of Food and Beer.
 The red star marks the minimum-variance portfolio (MVP), which is the portfolio with the lowest volatility, offering the most efficient balance between return and risk. This MVP is characterized by specific weights assigned to Food and Beer, along with its portfolio return and volatility. Investors seeking to minimize risk exposure while maintaining reasonable returns would prefer the minimum-variance portfolio, as it provides the optimal risk-return tradeoff for a two-asset portfolio.
 
 
