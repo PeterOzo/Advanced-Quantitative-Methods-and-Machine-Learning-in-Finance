@@ -1,10 +1,4 @@
-# Advanced-Quantitative-Methods-and-Machine-Learning-in-Finance
-Portfolio Risk Analysis &amp; Optimization
-
-
-
-# Advanced Portfolio Risk Analysis & Optimization
-*FIN 666 - Advanced Quantitative Methods and Machine Learning in Finance*
+## Portfolio Risk Analysis &amp; Optimization
 
 ## **Problem Statement**
 The financial industry faces significant challenges in accurately measuring and managing portfolio risk, particularly when dealing with non-normal return distributions. Traditional risk measures like standard deviation and normal VaR often fail to capture tail risks and extreme market events. The challenge is to develop comprehensive risk assessment models that account for higher-order moments (skewness and kurtosis) while optimizing portfolio allocation for maximum risk-adjusted returns across multiple industry sectors.
