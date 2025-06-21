@@ -39,8 +39,12 @@ Comprehensive statistical analysis is performed including:
 - **Higher-Order Moments**: Third and fourth moment calculations for distribution analysis
 - **Correlation Analysis**: Cross-sectional correlation matrices for portfolio construction
 
-**![image](https://github.com/user-attachments/assets/d90467c0-7da8-4d12-8735-bff7070e5cf8)
-**
+![image](https://github.com/user-attachments/assets/d90467c0-7da8-4d12-8735-bff7070e5cf8)
+
+The Modified Cornish-Fisher VaR analysis above reveals significant heterogeneity in tail risk exposure across the 48 industry portfolios. Coal emerges as the highest-risk sector with a VaR of approximately 23%, reflecting the extreme volatility and cyclical nature of commodity markets. Energy-related industries (Coal, Oil, Mines) consistently rank among the highest-risk categories, indicating sector-specific vulnerability to economic cycles and commodity price shocks.
+In contrast, defensive sectors demonstrate superior risk profiles: Food (6.3%), Beer (6.3%), and Utilities (7.1%) exhibit the lowest VaR values, confirming their reputation as safe-haven investments during market stress. The consumer staples and utilities sectors provide natural portfolio diversification benefits due to their stable demand characteristics and lower correlation with economic cycles.
+Technology and manufacturing sectors show moderate risk levels, with notable variations: while Computers and Chips display manageable risk (8.6% and 9.7% respectively), traditional manufacturing industries like Steel, Fabricated Products, and Textiles exhibit elevated tail risk exceeding 15%. This pattern suggests that new economy sectors benefit from lower physical asset intensity and higher adaptability compared to capital-intensive traditional industries.
+The wide dispersion of VaR values (ranging from 6.3% to 23%) validates the importance of sector diversification in portfolio construction and highlights the critical need for industry-specific risk management approaches in institutional investment strategies.
 
 ### **Key Observations:**
 
@@ -50,7 +54,8 @@ Comprehensive statistical analysis is performed including:
 - **Skewness Patterns**: Most industries exhibit negative skewness, indicating left-tail risk, with notable exceptions in Agriculture (0.51) and Textiles (0.49)
 - **Kurtosis Analysis**: Real Estate shows extreme kurtosis (17.20), indicating fat-tail distributions and higher probability of extreme events
 
-**[INSERT SHARPE RATIO BAR CHART HERE]**
+![image](https://github.com/user-attachments/assets/928082f2-5719-4300-9df8-8a04b4142500)
+
 
 **Risk-Adjusted Performance Insights:**
 - **Top Performers**: Meals (0.656), Guns (0.628), and Medical Equipment (0.600) achieve the highest risk-adjusted returns
@@ -97,7 +102,11 @@ cvar = ret[isbeyond].mean()
 - **Portfolio Volatility**: 12.84% annually
 - **Sharpe Ratio**: 0.584
 
-**[INSERT EFFICIENT FRONTIER PLOT HERE]**
+![image](https://github.com/user-attachments/assets/e39c1c1a-83e5-45ca-aba7-c383be55bf37)
+
+The attached plot illustrates the Efficient Frontier Analysis for two selected industries, Food and Beer, using annualized returns and volatilities. The blue curve represents the efficient frontier, which consists of various portfolios created by adjusting the weight combinations of the two assets in increments of 0.10, ranging from fully investing in one asset to the other. The x-axis denotes portfolio volatility (risk), while the y-axis represents the expected return. Each point on the curve corresponds to a different portfolio composition of Food and Beer.
+The red star marks the minimum-variance portfolio (MVP), which is the portfolio with the lowest volatility, offering the most efficient balance between return and risk. This MVP is characterized by specific weights assigned to Food and Beer, along with its portfolio return and volatility. Investors seeking to minimize risk exposure while maintaining reasonable returns would prefer the minimum-variance portfolio, as it provides the optimal risk-return tradeoff for a two-asset portfolio.
+
 
 ### **Risk Metrics Summary**
 | **Metric** | **Best Performer** | **Value** | **Worst Performer** | **Value** |
