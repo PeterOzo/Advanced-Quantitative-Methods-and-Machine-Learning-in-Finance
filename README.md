@@ -39,8 +39,8 @@ Comprehensive statistical analysis is performed including:
 - **Higher-Order Moments**: Third and fourth moment calculations for distribution analysis
 - **Correlation Analysis**: Cross-sectional correlation matrices for portfolio construction
 
-**[![image](https://github.com/user-attachments/assets/a154f2b2-ea28-498a-a432-5b6f5f5c5d2f)
-]**
+**![image](https://github.com/user-attachments/assets/d90467c0-7da8-4d12-8735-bff7070e5cf8)
+**
 
 ### **Key Observations:**
 
